@@ -1,4 +1,4 @@
-// Filtering list items by selected chekcboxes
+// Filtering list items by selected chekcboxes v1.1
 // Sergey Chirva
 
 <
