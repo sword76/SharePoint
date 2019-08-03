@@ -1,8 +1,7 @@
 // Filtering list items by selected chekcboxes v2.0
 // Sergey Chirva
 
-<
-script type = "text/javascript" >
+<script type = "text/javascript" >
 
   SP.SOD.executeOrDelayUntilScriptLoaded('sp.js', 'SP.ClientContext', ShowSelectedItems);
 
@@ -19,5 +18,4 @@ function ShowSelectedItems() {
   console.log(mySelected);
 }
 
-<
-/script>
+</script>
