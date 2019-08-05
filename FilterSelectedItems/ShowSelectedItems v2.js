@@ -1,21 +1,30 @@
 // Filtering list items by selected chekcboxes v2.0
 // Sergey Chirva
 
-<script type = "text/javascript" >
+<
+script type = "text/javascript" >
 
   SP.SOD.executeOrDelayUntilScriptLoaded('sp.js', 'SP.ClientContext', ShowSelectedItems);
 
-function ShowSelectedItems() {
+function exportSelectedItems() {
   var ctx = new SP.ClientContext.get_current();
-  var items = SP.ListOperation.Selection.getSelectedItems(ctx);
+  var items = SP.ListOperation.Selection.getSelectedItems(ctx); // Reading list content.
 
-  var mySelected = '';
+  if (ctx != indefined && ctx != null) {
+    var camlQuery = new SP.CamlQuery(); // Creating new empty CAML query.
+    let camlQueryString = '';
 
-  for (var i in items) {
-    mySelected += items[i].id + '|';
+    // Filling caml query by selected items IDs.
+
   }
 
-  console.log(mySelected);
+
 }
 
-</script>
+// Query failed funtion with error messages.
+function onQueryFailed(sender, args) {
+  alert('Request failed. ' + args.get_message() + '\n' + args.get_stackTrace());
+}
+
+<
+/script>

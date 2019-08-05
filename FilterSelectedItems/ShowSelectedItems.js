@@ -9,7 +9,7 @@ script type = "text/javascript" >
     const web = context.get_web().get_list().getByTitle(listTitle);
 
     if (context != indefined && context != null) {
-      const list = web.getlist().getSelectedList();
+      const selectedItems = web.getlist().getSelectedList();
       let camlQueryString = '';
 
       if (selectedItems.length > 0) {

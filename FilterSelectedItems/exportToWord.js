@@ -123,7 +123,9 @@ function strip(html) {
   tmp.innerHTML = html;
   return tmp.textContent || tmp.innerText || "";
 } <
-/script> <
+/script>
+
+<
 div id = "mainExportContainer"
 style = "display: none;" > < /div> <iframe id="htmlDownloadFrame" style="display: none;"></iframe >
   <
