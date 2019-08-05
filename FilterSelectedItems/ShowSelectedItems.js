@@ -1,8 +1,7 @@
 // Filtering list items by selected chekcboxes v1.1
 // Sergey Chirva
 
-<
-script type = "text/javascript" >
+<script type = "text/javascript">
 
   function ShowSelectedItems(listTitle) {
     const context = new SP.ClientContext.get_current();
@@ -71,5 +70,4 @@ function onQueryFailed() {
   alert('failed. Message:' + args.get_message())
 };
 
-<
-/script>
+</script>
