@@ -1,5 +1,5 @@
-< script src = "//code.jquery.com/jquery-1.10.1.min.js" > < /script> <
-  script >
+<script src = "//code.jquery.com/jquery-1.10.1.min.js" > </script>
+<script>
   var tempTableId;
 var tempTitle;
 var row;
@@ -122,23 +122,29 @@ function strip(html) {
   var tmp = document.createElement("DIV");
   tmp.innerHTML = html;
   return tmp.textContent || tmp.innerText || "";
+<<<<<<< HEAD
 } <
 /script>
 
 <
 div id = "mainExportContainer"
+=======
+}
+</script>
+
+<div id = "mainExportContainer"
+>>>>>>> c5505f4cbba777edd3b6145dce8ba8987cbe4cdb
 style = "display: none;" > < /div> <iframe id="htmlDownloadFrame" style="display: none;"></iframe >
-  <
-  td > < input type = "button"
-id = "btnSubmit"
-value = "Export to word"
-onclick = " exportSelectedItemsToWord()"
-style = "
-margin - left: 163 px;
-margin - bottom: 14 px;
-color: #fff;
-background - color: #6496c8;
-border: none;
-border-radius: 15px;
-box-shadow: 0 10px # 27496 d;
+  <td> < input type = "button"
+    id = "btnSubmit"
+    value = "Export to word"
+    onclick = " exportSelectedItemsToWord()"
+    style = "
+    margin - left: 163 px;
+    margin - bottom: 14 px;
+    color: #fff;
+    background - color: #6496c8;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px # 27496 d;
 " /> </td>
