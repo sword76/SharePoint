@@ -1,0 +1,25 @@
+// Add colors to list.
+<style type="text/css">
+
+/* List View Header */
+.ms-listviewtable>thead>tr>th {
+  background-color: #5B9BD5;
+}
+
+/* List view Header Text color*/
+.ms-vh-div, .ms-headerSortTitleLink {
+  color: white !important;
+  font-weight: bold;
+}
+
+/* background color for alternate rows */
+.ms-listviewtable>tbody>tr.ms-alternating {
+  background: #DDEBF7
+}
+
+/*Equipment fuild link style */
+.ms-vb a.ms-listlink, .ms-vb2 a.ms-listlink, .ms-vb-user a.ms-listlink, .ms-vb a.ms-listlink:visited, .ms-vb a.ms-listlink:hover:visited {
+  color: #0072C6
+}
+
+</style>
