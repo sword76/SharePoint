@@ -1,7 +1,7 @@
 // Filtering list items by selected chekcboxes v2.1
 // Sergey Chirva
 
-<script type = "text/javascript" >
+<script type = "text/javascript">
 
 SP.SOD.executeOrDelayUntilScriptLoaded('sp.js', 'SP.ClientContext', exportToWord);
 
